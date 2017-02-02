@@ -1,0 +1,6 @@
+git init to create initial repo
+git add --all to add the files to staging area
+git commit -m"some message" 
+git remote -add origin https:<repo_name>        remote name and a repository URL
+git push -u origin master    		-u remember the parameters
+git pull origin master                   pull from the master branch to get all the changes made
