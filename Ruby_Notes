@@ -1,0 +1,46 @@
+Running APP via cloud IDE
+1. click on share
+
+
+Deploying to Heroku 
+1. heroku create
+2. git push heroku master 
+
+
+Creating DB in rails
+1. rails generate scaffold <TableName> TableColumn:Type TableColumn:Type
+	rails generate scaffold Users name:string email:string 
+	rails auto create
+
+
+Making new rails Applicaton
+1. rails new <AppName>
+2. cd into new directory
+3. run bundle install
+
+Running ruby on local machine
+1. cd into ruby directory
+2. rails server
+3. go to website localhost:3000
+
+
+Ruby Directory 
+#Gemfile are Java libraries 
+
+The request hits the Rails router in config/routes.rb. The router recognizes the URL and sends the request to the controller.
+The controller receives the request and processes it.
+The controller passes the request to the view.
+The view renders the page as HTML.
+The controller sends the HTML back to the browser for you to see.
+This is called the request/response cycle. It's a useful way to see how a Rails app's files and folders fit together.
+
+
+break terminates the loop (jumps to the code below it).
+continue terminates the rest of the processing of the code within the loop for the current iteration, but continues the loop.
+
+
+put in depolyment artifacts sprint 6. Label with ticket number
+
+
+
+

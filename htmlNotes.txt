@@ -1,0 +1,1 @@
+You may have already noticed this, but all HTML elements are essentially little rectangles.
