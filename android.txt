@@ -1,0 +1,9 @@
+activity: a single screen of UI in app
+- the fundamental unit of a GUI
+
+view/widget: visible onscreen items
+- GUI control such as a button
+layout: invisible container to position/size widgets
+
+event: action that occurs when user interacts with widgets
+- clicks, typing, scrolling
