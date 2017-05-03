@@ -3,4 +3,22 @@ git add --all to add the files to staging area
 git commit -m"some message" 
 git remote -add origin https:<repo_name>        remote name and a repository URL
 git push -u origin master    		-u remember the parameters
-git pull origin master                   pull from the master branch to get all the changes made
+git pull origin master                pull from the master branch to get all the changes made
+
+
+Cloning and Staying up to date
+1. clone a fork from the original repo. This creates a version in your repo
+2. Add remote from original repo in your forked repo
+	cd into/cloned/fork-repo
+	git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+	git fetch upstream
+3.  updating your fork from original repo to keep up with their changes
+	git pull upstream master
+
+
+Hard reset if everything is messed up
+git remote add upstream /url/to/original/repo
+git fetch upstream
+git checkout master
+git reset --hard upstream/master  
+git push origin master --force 
