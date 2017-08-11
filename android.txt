@@ -7,3 +7,5 @@ layout: invisible container to position/size widgets
 
 event: action that occurs when user interacts with widgets
 - clicks, typing, scrolling
+
+-new line added in visual code
